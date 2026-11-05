@@ -1,0 +1,14 @@
+.idea
+node_modules
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Build output and SvelteKit's generated files
+/build
+/.svelte-kit
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
